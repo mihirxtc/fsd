@@ -1,0 +1,71 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+.icon {
+    margin: 0;
+    font-size: 100px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.desc {
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(10, 157, 157, 0.729);
+}
+
+.flex {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 12px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.user-container {
+    width: 400px;
+    margin: auto;
+}
+
+.d-none {
+    display: none;
+}
+
+.alert {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 24px;
+    font-size: 18px;
+    margin: 10px 0;
+    background-color: rgba(241, 208, 147, 0.688);
+    color: rgb(58, 37, 0);
+    border-radius: 10px;
+    transition: 0.2s;
+}
