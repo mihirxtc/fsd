@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 
+
+=> Units
+
+vw-vh => view width, view height
+vmax-vmin => view height max, view height min
+em = font size of the parent element
+rem = 1rem = 16px
+px = font-size in pixels
+% = relative to the size of parent element
+
+
+=> media query
+
+min-width = minimun discount 
+mix-width = maximum discount 
+
+
+*/
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+.parent {
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4.25vmax;
+}
+
+h3 {
+    font-size: 3.725vmax;
+}
+
+p {
+    font-size: 2.5vmax;
+}
+
+@media(min-width: 600px) { 
+    .demo {
+        height: 200px;
+        width: 200px;
+        background-color: purple;
+    }
+}
+
+@media(max-width: 600px) { 
+    .demo {
+        height: 200px;
+        width: 200px;
+        background-color: black;
+    }
+}
+*/
+
+
+/*
+.card-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+@media(min-width: 500px) {
+    .card {
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 14px;
+    }
+}
+
+@media(max-width: 500px) {
+    .card {
+        padding: 10px;
+    }
+}
+
+*/
+
+
+
+@media (min-width: 700px) {
+    .bg {
+        width: 680px;
+        position: relative;
+        margin: 20px auto;
+    }
+    
+    .bg-img {
+        width: 100%;
+    }
+    
+    .content {
+        position: absolute;
+        bottom: 80px;
+        color: white;
+        text-align: center;
+        padding: 0 40px;
+    }
+    
+    .bg-title {
+        font-size: 2.5vmax;
+    }
+    
+    .btn {
+        border: 1px solid white;
+        border-radius: 12px;
+        padding: 14px 30px;
+        font-size: 16px;
+        background-color: transparent;
+        color: white;
+    }   
+    
+    .tint {
+        background-color: rgba(0, 0, 0, 0.41);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .bg {
+        margin: 0 auto;
+    }
+    
+    .bg-img {
+        width: 100%;
+    }
+    
+    .content {
+        position: absolute;
+        bottom: 80px;
+        color: black;
+        text-align: center;
+        padding: 0 40px;
+    }
+    
+    .bg-title {
+        margin-top: 12px;
+        font-size: 4vmax;
+    }
+    
+    .btn {
+        border: 1px solid grey;
+        border-radius: 12px;
+        padding: 14px 30px;
+        font-size: 16px;
+        background-color: transparent;
+        color: rgb(48, 48, 48);
+    }   
+    
+    .tint {
+        background-color: transparent;
+        position: absolute;
+    }
+}
