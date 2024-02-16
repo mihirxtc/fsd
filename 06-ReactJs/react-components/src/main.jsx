@@ -69,11 +69,11 @@ let foodItems = [
     votes: 150
   },
   {
-    title: "Chicken Tikka Masala",
-    imageUrl: "https://source.unsplash.com/1600x1000/?chicken-tikka",
+    title: "Steamed Momo's",
+    imageUrl: "https://source.unsplash.com/1600x1000/?momo",
     price: 280,
-    desc: "Tender chicken pieces cooked in a rich, creamy tomato-based sauce.",
-    type: "nonveg",
+    desc: "Special MOMO's pieces cooked in a rich, creamy tomato-based sauce.",
+    type: "veg",
     ratings: 4.9,
     votes: 190
   }
