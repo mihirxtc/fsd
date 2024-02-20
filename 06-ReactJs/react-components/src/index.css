@@ -54,6 +54,13 @@ button:focus-visible {
   padding: 10px;
   border-radius: 12px;
   width: 260px;
+  transition: .3s;
+}
+.card:hover {
+  cursor: pointer;
+  transform: rotate(3deg);
+  box-shadow: 4px 6px 8px 6px #eee;
+  border: 1px solid white;
 }
 
 .card-img {
@@ -74,13 +81,25 @@ button:focus-visible {
   margin: 0;
 }
 
-.container {
-  width: 1200px;
-  margin: 60px auto;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
+@media (min-width: 990px) {
+  .container {
+    width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    margin: 60px auto;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .flex {
@@ -103,4 +122,23 @@ button:focus-visible {
   padding: 2px;
   border-radius: 50%;
   background-color: red;
+}
+
+.card-header {
+  position: relative;
+}
+
+.try {
+  margin: 10px;
+  padding: 3px 12px;
+  border-radius: 18px;
+  background-color: rgb(245, 255, 245);
+  color: green;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.none {
+  display: none;
 }

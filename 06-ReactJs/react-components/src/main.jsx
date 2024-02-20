@@ -20,7 +20,7 @@ let foodItems = [
     price: 180,
     desc: "Juicy grilled chicken breast with spicy sauce, lettuce, and pickles.",
     type: "nonveg",
-    ratings: 4.8,
+    ratings: 4.2,
     votes: 150
   },
   {
@@ -47,7 +47,7 @@ let foodItems = [
     price: 250,
     desc: "Classic pizza topped with tomato sauce, mozzarella cheese, and fresh basil.",
     type: "veg",
-    ratings: 4.9,
+    ratings: 4.3,
     votes: 200
   },
   {
@@ -65,7 +65,7 @@ let foodItems = [
     price: 220,
     desc: "Aromatic rice cooked with mixed vegetables, spices, and herbs.",
     type: "veg",
-    ratings: 4.7,
+    ratings: 4.4,
     votes: 150
   },
   {
@@ -74,7 +74,7 @@ let foodItems = [
     price: 280,
     desc: "Special MOMO's pieces cooked in a rich, creamy tomato-based sauce.",
     type: "veg",
-    ratings: 4.9,
+    ratings: 4.6,
     votes: 190
   }
 ];
