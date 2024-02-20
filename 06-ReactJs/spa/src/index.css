@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header {
+  width: 990px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.profile {
+  width: 690px;
+  margin: 60px auto;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.user {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.btn {
+  width: 100px;
+  padding: 12px;
+  font-size: 160x;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
